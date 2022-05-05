@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item name="actor" value="final NpcInstance actor = getActor()"/>
+	<item name="boss" value="final NpcInstance boss = getActor().getLeader()"/>
+	<item name="top_desire_target" value="top_desire_target = getTopHated()"/>
+</list>

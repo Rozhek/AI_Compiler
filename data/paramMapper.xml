@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+
+	<param name="mobile_type">
+		<item value="roamer_primeval" />
+		<item value="tyranno_primeval" />
+	</param>
+	<param name="SelfRangeDDMagic">
+		<item value="warrior_bomb" />
+		<item value="warrior_casting_splash" />
+		<item value="party_leader_couple_captain_nurse" />
+		<item value="warrior_casting_3skill_approach" />
+		<item value="warrior_casting_ddmagic_selfrangeddmagic" />
+	</param>
+	<param name="PhysicalSpecial">
+		<item value="warrior_see_skill" />
+		<item value="warrior_physicalspecial" />
+		<item value="warrior_physicalspecial_buff" />
+		<item value="warrior_corpse_ghost_physicalspecial" />
+		<item value="party_private_couple_follower_female" />
+		<item value="party_leader_couple_captain_male" />
+		<item value="warrior_casting_3skill_approach" />
+		<item value="party_private_physicalspecial" />
+		<item value="warrior_berserker_physicalspecial" />
+	</param>
+	<param name="LongRangePhysicalSpecial">
+		<item value="warrior_physicalspecial_shot_range" />
+	</param>
+	<param name="Buff">
+		<item value="warrior_casting_enchant" />
+		<item value="warrior_physicalspecial_buff" />
+		<item value="party_private_couple_follower_female" />
+		<item value="party_private_couple_follower_baby" />
+		<item value="warrior_priest" />
+	</param>
+	<param name="HoldMagic">
+		<item value="warrior_casting_hold_magic" />
+	</param>
+	<param name="CancelMagic">
+		<item value="warrior_casting_3skill_magical" />
+	</param>
+	<param name="DDMagic">
+		<item value="party_private" />
+		<item value="warrior_casting_3skill_magical" />
+		<item value="warrior_corpse_ghost_ddmagic" />
+		<item value="warrior_casting_ddmagic" />
+		<item value="party_leader_couple_captain_nurse" />
+		<item value="ai_special_bloody_queen" />
+	</param>
+	<param name="MagicHeal">
+		<item value="wizard_ddmagic2_heal" />
+		<item value="party_private_casting_heal" />
+	</param>
+
+	<param name="W_ShortRangeDDMagic">
+		<item value="party_private_param_wizard" />
+		<item value="party_leader_wizard_dd2" />
+		<item value="wizard_ddmagic2" />
+		<item value="wizard_ddmagic2_heal" />
+	</param>
+	<param name="W_LongRangeDDMagic">
+		<item value="party_private_param_wizard" />
+		<item value="party_leader_wizard_dd2" />
+		<item value="wizard_ddmagic2" />
+		<item value="wizard_ddmagic2_heal" />
+		<item value="warrior_casting_ddmagic_physicalspecial" />
+		<item value="warrior_casting_ddmagic_selfrangeddmagic" />
+	</param>
+
+	<param name="Privates">
+		<item value="party_leader_param_wizard" />
+		<item value="party_leader_param_warrior" />
+		<item value="egg_primeval" />
+	</param>
+	<param name="SummonPrivateRate">
+		<item value="party_leader_param_wizard" />
+		<item value="party_leader_param_warrior" />
+	</param>
+
+	<param name="DefaultHate">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateRace1">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateRace1Boost">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateRace2">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateRace2Boost">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateClass1">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateClass1Boost">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateClass2">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateClass2Boost">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateClass3">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateClass3Boost">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateClassGroup1">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateClassGroup1Boost">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateClassGroup2">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HateClassGroup2Boost">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="ATTACKED_Weight_Point">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="CLAN_ATTACKED_Weight_Point">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="PARTY_ATTACKED_Weight_Point">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="SEE_SPELL_Weight_Point">
+		<item value="warrior_behavior" />
+	</param>
+	<param name="HATE_SKILL_Weight_Point">
+		<item value="warrior_behavior" />
+	</param>
+
+	<param name="AttackLowLevel">
+		<item value="monster_parameter" />
+	</param>
+	<param name="RunAway">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SetCurse">
+		<item value="monster_parameter" />
+	</param>
+	<param name="AttackLowHP">
+		<item value="monster_parameter" />
+	</param>
+	<param name="HelpHeroSilhouette">
+		<item value="monster_parameter" />
+	</param>
+	<param name="HelpHeroAI">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SetAggressiveTime">
+		<item value="monster_parameter" />
+	</param>
+	<param name="HalfAggressive">
+		<item value="monster_parameter" />
+	</param>
+	<param name="RandomAggressive">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SetHateGroup">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SetHateGroupRatio">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SetHateOccupation">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SetHateOccupationRatio">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SetHateRace">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SetHateRaceRatio">
+		<item value="monster_parameter" />
+	</param>
+	<param name="IsTransform">
+		<item value="monster_parameter" />
+	</param>
+	<param name="step1">
+		<item value="monster_parameter" />
+	</param>
+	<param name="step2">
+		<item value="monster_parameter" />
+	</param>
+	<param name="step3">
+		<item value="monster_parameter" />
+	</param>
+	<param name="DaggerBackAttack">
+		<item value="monster_parameter" />
+	</param>
+	<param name="IsVs">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SpecialSkill">
+		<item value="monster_parameter" />
+	</param>
+	<param name="MoveAroundSocial">
+		<item value="monster_parameter" />
+	</param>
+	<param name="MoveAroundSocial1">
+		<item value="monster_parameter" />
+	</param>
+	<param name="MoveAroundSocial2">
+		<item value="monster_parameter" />
+	</param>
+	<param name="IsSay">
+		<item value="monster_parameter" />
+	</param>
+	<param name="ShoutMsg1">
+		<item value="monster_parameter" />
+	</param>
+	<param name="ShoutMsg2">
+		<item value="monster_parameter" />
+	</param>
+	<param name="ShoutMsg3">
+		<item value="monster_parameter" />
+	</param>
+	<param name="ShoutMsg4">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SSQLoserTeleport">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SSQTelPosX">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SSQTelPosY">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SSQTelPosZ">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SwapPosition">
+		<item value="monster_parameter" />
+	</param>
+	<param name="FriendShip">
+		<item value="monster_parameter" />
+	</param>
+	<param name="DungeonType">
+		<item value="monster_parameter" />
+	</param>
+	<param name="DungeonTypeAI">
+		<item value="monster_parameter" />
+	</param>
+	<param name="DungeonTypePrivate">
+		<item value="monster_parameter" />
+	</param>
+	<param name="ShoutTarget">
+		<item value="monster_parameter" />
+	</param>
+	<param name="AcceptShoutTarget">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SelfExplosion">
+		<item value="monster_parameter" />
+	</param>
+	<param name="FriendShip1">
+		<item value="monster_parameter" />
+	</param>
+	<param name="FriendShip2">
+		<item value="monster_parameter" />
+	</param>
+	<param name="FriendShip3">
+		<item value="monster_parameter" />
+	</param>
+	<param name="FriendShip4">
+		<item value="monster_parameter" />
+	</param>
+	<param name="FriendShip5">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SoulShot">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SoulShotRate">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SpiritShot">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SpiritShotRate">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SpeedBonus">
+		<item value="monster_parameter" />
+	</param>
+	<param name="HealBonus">
+		<item value="monster_parameter" />
+	</param>
+	<param name="CreviceOfDiminsion">
+		<item value="monster_parameter" />
+	</param>
+	<param name="LongRangeGuardRate">
+		<item value="monster_parameter" />
+	</param>
+	<param name="SeeCreatureAttackerTime">
+		<item value="monster_parameter" />
+	</param>
+
+	<param name="DesirePqSize">
+		<item value="default_npc"/>
+	</param>
+	<param name="FavorListSize">
+		<item value="default_npc"/>
+	</param>
+	<param name="IdleDesire_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="MoveAround_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="DoNothing_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="Attack_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="Chase_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="Flee_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="GetItem_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="Follow_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="Decaying_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="MoveToWayPoint_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="UseSkill_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="MoveTo_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="EffectAction_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="MoveToTarget_DecayRatio">
+		<item value="default_npc"/>
+	</param>
+	<param name="IdleDesire_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="MoveAround_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="DoNothing_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="Attack_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="Chase_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="Flee_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="GetItem_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="Follow_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="Decaying_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="MoveToWayPoint_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="UseSkill_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="MoveTo_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="EffectAction_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="MoveToTarget_BoostValue">
+		<item value="default_npc"/>
+	</param>
+	<param name="Dispel_Debuff">
+		<item value="default_npc"/>
+	</param>
+	<param name="Dispel_Debuff_Prob">
+		<item value="default_npc"/>
+	</param>
+</list>

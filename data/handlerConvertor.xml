@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<handler name="ABNORMAL_STATUS_CHANGED" value="onEvtAbnormalChanged">
+		<param name="speller"/>
+		<param name="skill_name_id"/>
+		<param name="skill_id"/>
+		<param name="skill_level"/>
+	</handler>
+	<handler name="ATTACK_FINISHED" value="onEvtAtkFinished">
+		<param name="target"/>
+	</handler>
+	<handler name="ATTACKED" value="onEvtAttacked">
+		<param name="attacker"/>
+		<param name="skill_name_id"/>
+		<param name="skill_id"/>
+		<param name="damage"/>
+	</handler>
+	<handler name="AUCTION_AGIT_GET_COST_INFO_RETURNED" value="onEvtAuctionCostReturned"/>
+	<handler name="BLOCK_UPSET_FINISHED" value="onEvtBlockUpsetFinished"/>
+	<handler name="BLOCK_UPSET_STARTED" value="onEvtBlockUpsetStarted"/>
+	<handler name="CALL_TO_CHANGE_CLASS" value="onEvtCallToChangeClass"/>
+	<handler name="CAN_CHANGE_TO_SUBCLASS" value="onEvtCanChangeToSubclass"/>
+	<handler name="CHANGE_CLASS" value="onEvtChangeClass"/>
+	<handler name="CHANGE_TO_AWAKENED_CLASS" value="onEvtChangeToAwakenedClass"/>
+	<handler name="CHECK_CURSED_USER_RETURNED" value="onEvtCheckCursedUserReturned"/>
+	<handler name="CHECK_REGISTER_PARTY_RESULT2" value="onEvtCheckRegPartyResult"/>
+	<handler name="CHECK_REGISTER_USER_RESULT" value="onEvtCheckRegUserResult"/>
+	<handler name="CLAN_ATTACKED" value="onEvtClanAttacked">
+		<param name="attacker"/>
+		<param name="victim"/>
+		<param name="damage"/>
+		<param name="skill_name_id"/>
+		<param name="skill_id"/>
+	</handler>
+	<handler name="CLAN_DIED" value="onEvtClanDead">
+		<param name="attacker"/>
+		<param name="victim"/>
+	</handler>
+	<handler name="CLASS_CHANGE_REQUESTED" value="onEvtClassChangeRequested"/>
+	<handler name="CLEFT_STATE_CHANGED" value="onEvtCleftStateChanged"/>
+	<handler name="CONTROLTOWER_LEVEL_INFORMED" value="onEvtControltowerInform"/>
+	<handler name="CREATE_ACADEMY" value="onEvtCreateAcademy"/>
+	<handler name="CREATE_ALLIANCE" value="onEvtCreateAlliance"/>
+	<handler name="CREATE_NPC_TO_WINNER" value="onEvtCreateNpcToWinner"/>
+	<handler name="CREATE_PLEDGE" value="onEvtCreateClan"/>
+	<handler name="CREATE_SUBPLEDGE" value="onEvtCreateSubPledge"/>
+	<handler name="CREATED" value="onEvtSpawn"/>
+	<handler name="DELETE_OLYMPIAD_TRADE_POINT_RETURNED" value="onEvtOlyPointReturned"/>
+	<handler name="DESIRE_MANIPULATION" value="onEvtDesireManipulation">
+		<param name="speller"/>
+		<param name="desire"/>
+	</handler>
+	<handler name="DIE_SET" value="onEvtDieSet"/>
+	<handler name="DISMISS_PLEDGE" value="onEvtDismissClan"/>
+	<handler name="DOOR_HP_LEVEL_INFORMED" value="onEvtDoorHpLevelInform"/>
+	<handler name="DOOR_STATUS" value="onEvtDoorStatus"/>
+	<handler name="ENCHANT_SKILL_REQUESTED" value="onEvtEnchantSkillRequest"/>
+	<handler name="END_PVP_MATCH_RESULT" value="onEvtEndPvpMatch"/>
+	<handler name="END_USER_PVP_MATCH_RESULT" value="onEvtEndUserMatch"/>
+	<handler name="FIELD_CYCLE_STEP_EXPIRED" value="onEvtFieldCycleExpired"/>
+	<handler name="FIND_RANDOM_USER" value="onEvtFindRandomUser"/>
+	<handler name="FORTRESS_CONTRACT_CASTLE_RETURNED" value="onEvtFortContractReturned"/>
+	<handler name="FORTRESS_SIEGE_REGISTER_RETURNED" value="onEvtFortRegisterReturned"/>
+	<handler name="FORTRESS_SIEGE_UNREGISTER_RETURNED" value="onEvtFortUnregister"/>
+	<handler name="FORTRESS_UPGRADE_FACILITY_RETURNED" value="onEvtFortUpgradeFacility"/>
+	<handler name="GET_EVENT_RANKER_INFO" value="onEvtEventRanker"/>
+	<handler name="GET_ITEM_FINISHED" value="onEvtItemFinished"/>
+	<handler name="GET_PLAYING_USER_COUNT" value="onEvtPlayingCount"/>
+	<handler name="GET_RANK_USER_PVP_MATCH_RESULT" value="onEvtGetRankUserMatch"/>
+	<handler name="GET_RELATED_FORTRESS_LIST_RETURNED" value="onEvtGetRelatedFortList"/>
+	<handler name="GIVE_EVENT_DATA" value="onEvtGiveEventData"/>
+	<handler name="INSTANT_AGIT_SET_OWNER" value="onEvtAgitSetOwner"/>
+	<handler name="INSTANT_ZONE_ENTER_RETURNED" value="onEvtinstantZoneEnter"/>
+	<handler name="INZONE_ALL_USER" value="onEvtInzoneAllUser"/>
+	<handler name="IS_TOGGLE_SKILL_ONOFF" value="onEvtIsToggleSkill"/>
+	<handler name="IS_USER_PVPMATCHING_RESULT" value="onEvtIsUserMatching"/>
+	<handler name="KILLED_USER_PVP_MATCH_RESULT" value="onEvtKilledPvpMatch"/>
+	<handler name="LEARN_SKILL_REQUESTED" value="onEvtLearnSkill"/>
+	<handler name="LET_IN_USER_PVP_MATCH" value="onEvtLetUserMatch"/>
+	<handler name="LEVEL_UP" value="onEvtLevelUp"/>
+	<handler name="LEVEL_UP_PLEDGE" value="onEvtLevelUpClan"/>
+	<handler name="LOAD_DBSAVING_MAP_RETURNED" value="onEvtLoadDBSaveMap"/>
+	<handler name="MANOR_MENU_SELECTED" value="onEvtManorMenuSelect"/>
+	<handler name="MASTER_ATTACK" value="onEvtLeaderAttack"/>
+	<handler name="MASTER_ATTACKED" value="onEvtLeaderAttacked"/>
+	<handler name="MENU_SELECTED" value="onEvtMenuSelected"/>
+	<handler name="MG_GET_UNRETURNED_POINT_RETURNED" value="onEvtMGGet"/>
+	<handler name="MG_JOIN_GAME_RETURNED" value="onEvtMGJoinGame"/>
+	<handler name="MG_REGISTER_PLEDGE_RETURNED" value="onEvtMGRegisterClan"/>
+	<handler name="MG_UNREGISTER_PLEDGE_RETURNED" value="onEvtMGUnregisterClan"/>
+	<handler name="MOVE_TO_FINISHED" value="onEvtMoveFinished">
+		<param name="x"/>
+		<param name="y"/>
+		<param name="z"/>
+	</handler>
+	<handler name="MOVE_TO_WAY_POINT_FINISHED" value="onEvtWayPointFinished">
+		<param name="way_point_index"/>
+		<param name="next_way_point_index"/>
+	</handler>
+	<handler name="MPCC_TELEPORTED" value="onEvtMPCCTeleported"/>
+	<handler name="MY_DYING" value="onEvtDead">
+		<param name="attacker"/>
+	</handler>
+	<handler name="NO_DESIRE" value="onEvtNoDesire"/>
+	<handler name="NODE_ARRIVED" value="onEvtNodeArrived">
+		<param name="script_event_arg1"/>
+		<param name="script_event_arg2"/>
+		<param name="script_event_arg3"/>
+		<param name="success"/>
+	</handler>
+	<handler name="OLYMPIAD_MATCH_RESULT_EVENT" value="onEvtOlyMatchResult"/>
+	<handler name="ON_AIRSHIP_EVENT" value="onEvtAirshipEvent"/>
+	<handler name="ON_ALL_NPC_DELETED" value="onEvtAllNpcDeleted"/>
+	<handler name="ON_CANCEL_SIEGE_EVENT" value="onEvtCancelSiegeEvent"/>
+	<handler name="ON_DB_NPC_INFO" value="onEvtDBNpcInfo"/>
+	<handler name="ON_DECLARE_DOMINION_EVENT" value="onEvtDeclareDominion"/>
+	<handler name="ON_DESTRUCT_CTRL_TOWER_EVENT" value="onEvtDestuctCtrlTower"/>
+	<handler name="ON_DOOR_EVENT" value="onEvtDoor"/>
+	<handler name="ON_DYNAMIC_QUEST_EVENT" value="onEvtDynamicQuest"/>
+	<handler name="ON_DYNAMIC_QUEST_INFO" value="onEvtDynamicQuestInfo"/>
+	<handler name="ON_END_CHANGE_TIME_EVENT" value="onEvtEndChangeTime"/>
+	<handler name="ON_END_SIEGE_EVENT" value="onEvtEndSiege"/>
+	<handler name="ON_EVENT_CAMPAIGN_EVENT" value="onEvtCampaignEvent"/>
+	<handler name="ON_FIELD_CYCLE_CHANGED_EVENT" value="onEvtFieldCycleChanged"/>
+	<handler name="ON_FORTRESS_EVENT" value="onEvtFortress"/>
+	<handler name="ON_INSTANT_ZONE_EVENT" value="onEvtInstantZone"/>
+	<handler name="ON_NPC_CREATED" value="onEvtNpcCreated"/>
+	<handler name="ON_NPC_DELETED" value="onEvtNpcDeleted"/>
+	<handler name="ON_NPCPOS_EVENT" value="onEvtNPCPos"/>
+	<handler name="ON_OLYMPIAD_FIELD_STEP_CHANGED_EVENT" value="onEvtOlyStepChanged"/>
+	<handler name="ON_OLYMPIAD_GAME_PREPARED" value="onEvtOlyGamePrepared"/>
+	<handler name="ON_PROCLAIM_SIEGE_EVENT" value="onEvtProclaimSiege"/>
+	<handler name="ON_SCRIPT_EVENT" value="onEvtScript"/>
+	<handler name="ON_SSQ_SYSTEM_EVENT" value="onEvtSSQSystem"/>
+	<handler name="ON_START" value="onEvtStart"/>
+	<handler name="ON_START_CHANGE_TIME_EVENT" value="onEvtStartChangeTime"/>
+	<handler name="ON_START_SIEGE_EVENT" value="onEvtStartSiege"/>
+	<handler name="ON_START_TEAMBATTLEAGIT_FINAL_EVENT" value="onEvtTeamBattleAgit"/>
+	<handler name="ON_TIMER" value="onEvtTimer"/>
+	<handler name="ONE_ENCHANT_SKILL_SELECTED" value="onEvtOneEnchantSkill"/>
+	<handler name="ONE_SKILL_SELECTED" value="onEvtOneSkill"/>
+	<handler name="OUT_OF_TERRITORY" value="onEvtOutOfTerritory"/>
+	<handler name="PARTY_ATTACKED" value="onEvtPartyAttacked">
+		<param name="attacker"/>
+		<param name="privat"/>
+		<param name="damage"/>
+		<param name="skill_name_id"/>
+		<param name="skill_id"/>
+	</handler>
+	<handler name="PARTY_DIED" value="onEvtPartyDead">
+		<param name="attacker"/>
+		<param name="privat"/>
+	</handler>
+	<handler name="PET_AI" value="onEvtPetAI"/>
+	<handler name="PET_DIED" value="onEvtPetDead"/>
+	<handler name="PET_REACTION" value="onEvtPetReaction"/>
+	<handler name="PLEDGE_CASTLE_SIEGE_DEFENCE_COUNT_DECREASE_RETURNED" value="onEvtCastleDefenceDecrease"/>
+	<handler name="PLEDGE_MASTER_TRANSFER" value="onEvtClanLeaderTransfer"/>
+	<handler name="PLEDGE_MASTER_TRANSFER_CANCEL" value="onEvtClanLeaderTransferCancel"/>
+	<handler name="QUEST_ACCEPTED" value="onEvtQuestAccepted"/>
+	<handler name="QUESTION_MARK_CLICKED" value="onEvtQuestionMark"/>
+	<handler name="REGISTER_PVP_MATCH_RESULT" value="onEvtRegPvpMatch"/>
+	<handler name="REGISTER_RESURRECTION_TOWER_RESULT" value="onEvtRegResurrectionTower"/>
+	<handler name="REGISTER_USER_PVP_MATCH_RESULT" value="onEvtRegisterMatch"/>
+	<handler name="REGISTER_USER_RESURRECTION_TOWER_RESULT" value="onEvtRegUserRegResurrectionTower"/>
+	<handler name="RENAME_SUBPLEDGE" value="onEvtRenameSubPledge"/>
+	<handler name="RESET_AGIT_DECO_RETURNED" value="onEvtResetAgitDeco"/>
+	<handler name="REVIVE_PLEDGE" value="onEvtReviveClan"/>
+	<handler name="SCENE_STOPPED" value="onEvtSceneStopped"/>
+	<handler name="SCRIPT_EVENT" value="onEvtScriptEvent">
+		<param name="script_event_arg1"/>
+		<param name="script_event_arg2"/>
+		<param name="script_event_arg3"/>
+	</handler>
+	<handler name="SEE_CREATURE" value="onEvtSeeCreature">
+		<param name="creature"/>
+	</handler>
+	<handler name="SEE_ITEM" value="onEvtSeeItem"/>
+	<handler name="SEE_SPELL" value="onEvtSeeSpell">
+		<param name="skill_name_id"/>
+		<param name="speller"/>
+		<param name="target"/>
+	</handler>
+	<handler name="SET_AGIT_DECO_RETURNED" value="onEvtAgitDeco"/>
+	<handler name="SET_HERO_RETURNED" value="onEvtSetHero"/>
+	<handler name="SHOW_ENCHANT_SKILL_DRAWER" value="onEvtEnchantSkillDrawer"/>
+	<handler name="SOCIAL_ACTION_EVENT" value="onEvtSocialAction"/>
+	<handler name="SPELL_SUCCESSED" value="onEvtSpellSuccess"/>
+	<handler name="SPELLED" value="onEvtSpelled">
+		<param name="skill_name_id"/>
+		<param name="speller"/>
+	</handler>
+	<handler name="START_PVP_MATCH_RESULT" value="onEvtStartPvpMatch"/>
+	<handler name="START_USER_PVP_MATCH_RESULT" value="onEvtStartUserMatch"/>
+	<handler name="STATIC_OBJECT_CLAN_ATTACKED" value="onEvtClanObjectAttacked">
+		<param name="attacker"/>
+		<param name="victim"/>
+		<param name="damage"/>
+	</handler>
+	<handler name="SUBJOB_CHANGED" value="onEvtSubJobChanged"/>
+	<handler name="SUBJOB_CREATED" value="onEvtSubJobCreated"/>
+	<handler name="SUBJOB_LIST_INFORMED" value="onEvtSubJobList"/>
+	<handler name="SUBJOB_RENEWED" value="onEvtSubJobRenewed"/>
+	<handler name="TALK_SELECTED" value="onEvtTalkSelected">
+		<param name="talker"/>
+	</handler>
+	<handler name="TALKED" value="onEvtTalked"/>
+	<handler name="TB_CHECK_MEMBER_REGISTER_STATUS" value="onEvtTBCheckRegister"/>
+	<handler name="TB_GET_BATTLE_ROYAL_PLEDGE_LIST_INFORMED" value="onEvtTBGetClanList"/>
+	<handler name="TB_GET_NPC_TYPE_INFORMED" value="onEvtTBGetNPCType"/>
+	<handler name="TB_GET_PLEDGE_REGISTER_STATUS_INFORMED" value="onEvtTBGetClanStatus"/>
+	<handler name="TB_REGISTER_MEMBER_RETURNED" value="onEvtTBRegisterMemeber"/>
+	<handler name="TB_REGISTER_PLEDGE_RETURNED" value="onEvtTBRegisterClan"/>
+	<handler name="TB_SET_NPC_TYPE_RETURNED" value="onEvtTBSetNpcType"/>
+	<handler name="TELEPORT_REQUESTED" value="onEvtTeleport"/>
+	<handler name="TELEPORT_TO_USER_RES" value="onEvtTeleportToUser"/>
+	<handler name="TIMER_FIRED_EX" value="onEvtTimerFiredEx">
+		<param name="timer_id"/>
+	</handler>
+	<handler name="TOTAL_REWARD_SKILL_ENCHANT_COUNT" value="onEvtRewardSkillEnchant"/>
+	<handler name="TRAP_ACTIVATED" value="onEvtTrapActivated"/>
+	<handler name="TRAP_DEFUSED" value="onEvtTrapDefused"/>
+	<handler name="TRAP_DETECTED" value="onEvtTrapDetected"/>
+	<handler name="TRAP_STEP_IN" value="onEvtTrapStepIn"/>
+	<handler name="TRAP_STEP_OUT" value="onEvtTrapStepOut"/>
+	<handler name="TUTORIAL_EVENT" value="onEvtTutorial"/>
+	<handler name="UNREGISTER_PVP_MATCH_RESULT" value="onEvtUnregisterPvpMatch"/>
+	<handler name="UNREGISTER_USER_PVP_MATCH_RESULT" value="onEvtUnregisterUserMatch"/>
+	<handler name="UPDATE_SUBPLEDGE_MASTER" value="onEvtUpdateSubPledgeLeader"/>
+	<handler name="UPGRADE_SUBPLEDGE_MEMBER_COUNT" value="onEvtUpgradeSubpledgeCount"/>
+	<handler name="USE_SKILL_FINISHED" value="onEvtUseSkillFinished">
+		<param name="skill_name_id"/>
+		<param name="target"/>
+		<param name="success"/>
+	</handler>
+	<handler name="USE_SKILL_STARTED" value="onEvtUseSkillStarted"/>
+	<handler name="USER_CONNECTED" value="onEvtUserConnected"/>
+	<handler name="WAS_COLLECTED" value="onEvtWasCollected"/>
+	<handler name="WITHDRAW_USER_PVP_MATCH_RESULT" value="onEvtWithdrawUserMatch"/>
+</list>

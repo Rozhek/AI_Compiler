@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<comparison param="script_event_arg1" values="scriptEvent" />
+	<comparison param="SuperPointMethod" values="moveSuperPoint" />
+	<comparison param="p_state" values="physicalState" />
+</list>

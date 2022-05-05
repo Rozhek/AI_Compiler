@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<libpath name="package" path="org.mmocore.gameserver.scripts.ai.pts"/>
+
+	<libpath name="Creature" path="org.mmocore.gameserver.object"/>
+	<libpath name="Player" path="org.mmocore.gameserver.object"/>
+	<libpath name="Party" path="org.mmocore.gameserver.model.team"/>
+	<libpath name="NpcInstance" path="org.mmocore.gameserver.model.instances"/>
+	<libpath name="EventParam" path="org.mmocore.gameserver.ai"/>
+	<libpath name="CtrlEventParam" path="org.mmocore.gameserver.ai"/>
+	<libpath name="AiUtils" path="org.mmocore.gameserver.utils"/>
+	<libpath name="SuperPointRail" path="org.mmocore.gameserver.object.components.npc.superPoint"/>
+	<libpath name="Category" path="org.jts.dataparser.data.holder.categorydata"/>
+	<libpath name="ScriptEvent" path="org.mmocore.gameserver.ai"/>
+	<libpath name="SocialAction" path="org.mmocore.gameserver.network.lineage.serverpackets"/>
+	<libpath name="CodeInfoList" path="org.mmocore.gameserver.utils.ai"/>
+	<libpath name="CodeInfo" path="org.mmocore.gameserver.utils.ai"/>
+	<libpath name="SkillInfo" path="org.mmocore.gameserver.utils.ai"/>
+
+	<libpath name="default_maker" path="org.mmocore.gameserver.ai.maker"/>
+</list>

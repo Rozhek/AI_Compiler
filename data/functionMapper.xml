@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<function name="InstantZone_Enter">
+		<param id="3" values="instZoneEnter" />
+	</function>
+	<function name="SetNpcParam">
+		<param id="2" values="setNpcParam" />
+	</function>
+	<function name="AddAttackDesire">
+		<param id="2" values="desireMove" />
+	</function>
+	<function name="AddUseSkillDesire">
+		<param id="2" values="skillData" />
+		<param id="3" values="desireType" />
+		<param id="4" values="desireMove" />
+	</function>
+	<function name="ChangeMoveType">
+		<param id="1" values="moveType" />
+	</function>
+	<function name="HavePledgePower">
+		<param id="2" values="pledgePower" />
+	</function>
+	<function name="GetDateTime">
+		<param id="2" values="dateFmt" />
+	</function>
+	<function name="AddMoveSuperPointDesire">
+		<param id="2" values="moveSuperPoint" />
+	</function>
+	<function name="Castle_GateOpenClose">
+		<param id="1" values="doorStatus" />
+	</function>
+	<function name="Castle_GateOpenClose2">
+		<param id="2" values="doorStatus" />
+	</function>
+	<function name="Castle_GateOpenCloseEx">
+		<param id="2" values="doorStatus" />
+	</function>
+	<function name="Area_SetOnOff">
+		<param id="2" values="areaStatus" />
+	</function>
+	<function name="Area_SetOnOffEx">
+		<param id="2" values="areaStatus" />
+	</function>
+	<function name="ChangeStatus">
+		<param id="1" values="statusChange" />
+	</function>
+	<function name="IsInCategory">
+		<param id="1" values="categoryData" />
+	</function>
+	<function name="Skill_GetAbnormalType">
+		<param id="1" values="skillData" />
+	</function>
+	<function name="CastBuffForQuestReward">
+		<param id="2" values="skillData" />
+	</function>
+	<function name="Skill_GetConsumeMP">
+		<param id="1" values="skillData" />
+	</function>
+	<function name="Skill_GetConsumeHP">
+		<param id="1" values="skillData" />
+	</function>
+	<function name="Skill_InReuseDelay">
+		<param id="1" values="skillData" />
+	</function>
+	<function name="BroadcastScriptEvent">
+		<param id="1" values="scriptEvent" />
+		<param id="2" values="scriptEvent" />
+	</function>
+	<function name="BroadcastScriptEventEx">
+		<param id="1" values="scriptEvent" />
+		<param id="2" values="scriptEvent" />
+	</function>
+	<function name="SendScriptEvent">
+		<param id="1" values="scriptEvent" />
+		<param id="2" values="scriptEvent" />
+	</function>
+	<function name="SendScriptEventEx">
+		<param id="1" values="scriptEvent" />
+		<param id="2" values="scriptEvent" />
+	</function>
+	<function name="IncrementParam">
+		<param id="2" values="incrementParam" />
+	</function>
+	<function name="CreateOnePrivate">
+		<param id="1" values="npcId" />
+	</function>
+	<function name="CreateOnePrivateEx">
+		<param id="1" values="npcId" />
+	</function>
+	<function name="BroadcastScriptEventCond">
+		<param id="1" values="scriptEvent" />
+	</function>
+	<function name="IsInCategory">
+		<param id="1" values="creatureGroup" />
+	</function>
+	<function name="AddEffectActionDesire">
+		<param id="2" values="socialType" />
+	</function>
+</list>

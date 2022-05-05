@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="AIDecompiler" default="do-deploy" basedir="." xmlns:fx="javafx:com.sun.javafx.tools.ant">
+	<target name="init-fx-tasks">
+		<path id="fxant">
+			<filelist>
+				<file name="${java.home}\..\lib\ant-javafx.jar" />
+				<file name="${java.home}\lib\jfxrt.jar" />
+			</filelist>
+		</path>
+
+		<taskdef resource="com/sun/javafx/tools/ant/antlib.xml" uri="javafx:com.sun.javafx.tools.ant" classpathref="fxant" />
+	</target>
+	<target name='do-compile'>
+		<delete dir="build" />
+		<mkdir dir="build/src" />
+		<mkdir dir="build/classes" />
+
+		<copy todir="build/src">
+			<fileset dir="src/main/resources">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+
+		<copy todir="build/src">
+			<fileset dir="src/main/java">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+
+		<javac includeantruntime="false" source="1.8" target="1.8" srcdir="build/src" destdir="build/classes" />
+
+		<copy todir="build/classes">
+			<fileset dir="src/main/resources">
+				<exclude name="**/*.java" />
+			</fileset>
+		</copy>
+	</target>
+	<target name="do-deploy" depends="do-compile, init-fx-tasks">
+		<delete file="build/dist" />
+		<mkdir dir="build/dist" />
+		<fx:jar destfile="build/dist/AIDecompiler.jar">
+			<fx:application name="AI Decompiler" mainClass="org.l2junity.decompiler.Main" />
+			<fileset dir="build/classes" />
+			<fx:resources>
+				<fx:fileset dir="build/dist" includes="AIDecompiler.jar" />
+			</fx:resources>
+			<manifest>
+				<attribute name="Implementation-Vendor" value="l2junity.org" />
+				<attribute name="Implementation-Title" value="AI Decompiler" />
+			</manifest>
+		</fx:jar>
+		<copy todir="build/dist">
+			<fileset dir="dist">
+				<include name="**/*" />
+			</fileset>
+		</copy>
+	</target>
+</project>

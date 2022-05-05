@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<map name="instZoneEnter">
+		<item key="0" value="ONLY_ME" />
+		<item key="1" value="ALL_PARTY" />
+		<item key="2" value="COMMAND_CHANNEL" />
+	</map>
+	<map name="setNpcParam">
+		<item key="9" value="HP" />
+		<item key="10" value="MaxHP" />
+		<item key="35" value="HP_Regen" />
+	</map>
+	<map name="desireMove">
+		<item key="0" value="DesireMove.STAND" />
+		<item key="1" value="DesireMove.MOVE_TO_TARGET" />
+	</map>
+	<map name="desireType">
+		<item key="0" value="DesireType.ATTACK" />
+		<item key="1" value="DesireType.HEAL" />
+	</map>
+	<map name="moveType">
+		<item key="0" value="MoveType.SLOW" />
+		<item key="1" value="MoveType.FAST" />
+	</map>
+	<map name="pledgePower">
+		<item key="1" value="PP_JOIN" />
+		<item key="2" value="PP_GIVE_NICKNAME" />
+		<item key="3" value="PP_VIEW_WAREHOUSE" />
+		<item key="4" value="PP_MANAGE_GRADE" />
+		<item key="5" value="PP_DECLARE_WAR" />
+		<item key="6" value="PP_OUST_MEMBER" />
+		<item key="7" value="PP_SET_CREST" />
+		<item key="8" value="PP_MANAGE_MASTER" />
+		<item key="9" value="PP_MANAGE_GROWTH" />
+		<item key="10" value="PP_SUMMON_AIRSHIP" />
+		<item key="11" value="PP_OPEN_AGIT_DOOR" />
+		<item key="12" value="PP_USE_AGIT_FUNC" />
+		<item key="13" value="PP_AGIT_AUCTION" />
+		<item key="14" value="PP_OUST_FROM_AGIT" />
+		<item key="15" value="PP_CONTROL_AGIT_FUNC" />
+		<item key="16" value="PP_OPEN_CASTLE_DOOR" />
+		<item key="17" value="PP_MANAGE_MANOR" />
+		<item key="18" value="PP_REGISTER_CASTLE_WAR" />
+		<item key="19" value="PP_USE_CASTLE_FUNC" />
+		<item key="20" value="PP_OUST_FROM_CASTLE" />
+		<item key="21" value="PP_MANAGE_TAX" />
+		<item key="22" value="PP_MANAGE_MERCENARY" />
+		<item key="23" value="PP_CONTROL_CASTLE_FUNC" />
+	</map>
+	<map name="dateFmt">
+		<item key="0" value="YEAR" />
+		<item key="1" value="MONTH" />
+		<item key="2" value="DAY" />
+		<item key="3" value="HOUR" />
+		<item key="4" value="MIN" />
+		<item key="5" value="SECOND" />
+		<item key="6" value="DAYOFWEEK" />
+	</map>
+	<map name="moveSuperPoint">
+		<item key="0" value="SuperPointRail.FollowRail" />
+		<item key="1" value="SuperPointRail.Random" />
+		<item key="2" value="SuperPointRail.FollowRail_Restart" />
+		<item key="3" value="SuperPointRail.FollowRail_Restart_Teleport" />
+	</map>
+	<map name="doorStatus">
+		<item key="0" value="true" />
+		<item key="1" value="false" />
+	</map>
+	<map name="areaStatus">
+		<item key="0" value="false" />
+		<item key="1" value="true" />
+	</map>
+	<map name="statusChange">
+		<item key="0" value="Status.NAME_INVISIBLE" />
+		<item key="1" value="Status.NAME_VISIBLE" />
+		<item key="2" value="Status.TARGET_DISABLE" />
+		<item key="3" value="Status.TARGET_ENABLE" />
+	</map>
+	<map name="incrementParam">
+		<item key="0" value="EXP" />
+		<item key="1" value="SP" />
+		<item key="2" value="INT" />
+		<item key="3" value="STR" />
+		<item key="4" value="CON" />
+		<item key="5" value="MEN" />
+		<item key="6" value="DEX" />
+		<item key="7" value="WIT" />
+		<item key="8" value="LEVEL" />
+		<item key="9" value="PKCOUNT" />
+	</map>
+	<map name="physicalState">
+		<item key="0" value="State.IDLE" />
+		<item key="1" value="State.MOVE_AROUND" />
+		<item key="2" value="State.DO_NOTHING" />
+		<item key="3" value="State.ATTACK" />
+		<item key="4" value="State.CHASE" />
+		<item key="5" value="State.FLEE" />
+		<item key="6" value="State.GET_ITEM" />
+		<item key="7" value="State.FOLLOW" />
+		<item key="8" value="State.DECAYING" />
+		<item key="9" value="State.MOVE_TO_WAY_POINT" />
+		<item key="10" value="State.USE_SKILL" />
+		<item key="11" value="State.MOVE_TO" />
+		<item key="12" value="State.EFFECT_ACTION" />
+		<item key="13" value="State.PET_DEFAULT" />
+		<item key="14" value="State.MOVE_TO_TARGET" />
+		<item key="15" value="State.MOVE_SUPERPOINT" />
+	</map>
+	<map name="creatureGroup">
+		<item key="0" value="Category.fighter_group" />
+		<item key="1" value="Category.mage_group" />
+		<item key="2" value="Category.wizard_group" />
+		<item key="3" value="Category.cleric_group" />
+		<item key="4" value="Category.attacker_group" />
+		<item key="5" value="Category.tanker_group" />
+		<item key="6" value="Category.first_class_group" />
+		<item key="7" value="Category.second_class_group" />
+		<item key="8" value="Category.third_class_group" />
+		<item key="9" value="Category.fourth_class_group" />
+		<item key="10" value="Category.bounty_hunter_group" />
+		<item key="11" value="Category.warsmith_group" />
+		<item key="12" value="Category.summon_npc_group" />
+		<item key="13" value="Category.knight_group" />
+		<item key="14" value="Category.white_magic_group" />
+		<item key="15" value="Category.heal_group" />
+		<item key="16" value="Category.assist_magic_group" />
+		<item key="17" value="Category.warrior_group" />
+		<item key="18" value="Category.human_2nd_group" />
+		<item key="19" value="Category.elf_2nd_group" />
+		<item key="20" value="Category.delf_2nd_group" />
+		<item key="21" value="Category.orc_2nd_group" />
+		<item key="22" value="Category.dwarf_2nd_group" />
+		<item key="23" value="Category.strider" />
+		<item key="24" value="Category.strider_group" />
+		<item key="25" value="Category.red_strider_group" />
+		<item key="26" value="Category.wolf_group" />
+		<item key="27" value="Category.grown_up_wolf_group" />
+		<item key="28" value="Category.hatchling_group" />
+		<item key="29" value="Category.baby_pet_group" />
+		<item key="30" value="Category.upgrade_baby_pet_group" />
+		<item key="31" value="Category.wyvern_group" />
+		<item key="32" value="Category.all_wolf_group" />
+		<item key="33" value="Category.wolf" />
+		<item key="34" value="Category.sin_eater_group" />
+		<item key="35" value="Category.pet_group" />
+		<item key="36" value="Category.item_equip_pet_group" />
+		<item key="37" value="Category.subjob_group_dagger" />
+		<item key="38" value="Category.subjob_group_bow" />
+		<item key="39" value="Category.subjob_group_knight" />
+		<item key="40" value="Category.subjob_group_summoner" />
+		<item key="41" value="Category.subjob_group_half_healer" />
+		<item key="42" value="Category.subjob_group_dance" />
+		<item key="43" value="Category.subjob_group_wizard" />
+		<item key="44" value="Category.human_fall_class" />
+		<item key="45" value="Category.human_wall_class" />
+		<item key="46" value="Category.human_mall_class" />
+		<item key="47" value="Category.human_call_class" />
+		<item key="48" value="Category.elf_fall_class" />
+		<item key="49" value="Category.elf_mall_class" />
+		<item key="50" value="Category.elf_wall_class" />
+		<item key="51" value="Category.elf_call_class" />
+		<item key="52" value="Category.delf_fall_class" />
+		<item key="53" value="Category.delf_mall_class" />
+		<item key="54" value="Category.delf_wall_class" />
+		<item key="55" value="Category.delf_call_class" />
+		<item key="56" value="Category.orc_fall_class" />
+		<item key="57" value="Category.orc_mall_class" />
+		<item key="58" value="Category.dwarf_all_class" />
+		<item key="59" value="Category.dwarf_bounty_class" />
+		<item key="60" value="Category.dwarf_smith_class" />
+		<item key="61" value="Category.kamael_all_class" />
+		<item key="62" value="Category.kamael_first_class_group" />
+		<item key="63" value="Category.kamael_second_class_group" />
+		<item key="64" value="Category.kamael_third_class_group" />
+		<item key="65" value="Category.kamael_fourth_class_group" />
+		<item key="66" value="Category.beginner_fighter" />
+		<item key="67" value="Category.beginner_mage" />
+		<item key="68" value="Category.kamael_male_main_occupation" />
+		<item key="69" value="Category.kamael_female_main_occupation" />
+		<item key="70" value="Category.archer_group" />
+		<item key="71" value="Category.shield_master" />
+		<item key="72" value="Category.bard" />
+		<item key="73" value="Category.force_master" />
+		<item key="74" value="Category.weapon_master" />
+		<item key="75" value="Category.bow_master" />
+		<item key="76" value="Category.dagger_master" />
+		<item key="77" value="Category.heal_master" />
+		<item key="78" value="Category.wizard_master" />
+		<item key="79" value="Category.buff_master" />
+		<item key="80" value="Category.summon_master" />
+		<item key="81" value="Category.warrior_cloack" />
+		<item key="82" value="Category.rogue_cloack" />
+		<item key="83" value="Category.mage_cloack" />
+		<item key="84" value="Category.shield_master2_3" />
+		<item key="85" value="Category.bard2_3" />
+		<item key="86" value="Category.force_master2_3" />
+		<item key="87" value="Category.weapon_master2_3" />
+		<item key="88" value="Category.bow_master2_3" />
+		<item key="89" value="Category.dagger_master2_3" />
+		<item key="90" value="Category.heal_master2_3" />
+		<item key="91" value="Category.wizard_master2_3" />
+		<item key="92" value="Category.buff_master2_3" />
+		<item key="93" value="Category.summon_master2_3" />
+		<item key="94" value="Category.attribute_group_summoner" />
+		<item key="95" value="Category.sub_group_warrior" />
+		<item key="96" value="Category.sub_group_rogue" />
+		<item key="97" value="Category.sub_group_knight" />
+		<item key="98" value="Category.sub_group_summoner" />
+		<item key="99" value="Category.sub_group_wizard" />
+		<item key="100" value="Category.sub_group_healer" />
+		<item key="101" value="Category.sub_group_enchanter" />
+		<item key="102" value="Category.sub_group_hec" />
+		<item key="103" value="Category.sub_group_hew" />
+		<item key="104" value="Category.sub_group_hef" />
+		<item key="105" value="Category.sub_group_orc" />
+		<item key="106" value="Category.sub_group_ware" />
+		<item key="107" value="Category.sub_group_black" />
+		<item key="108" value="Category.sub_group_de" />
+		<item key="109" value="Category.sub_group_kamael" />
+		<item key="110" value="Category.light_tanker_group" />
+		<item key="111" value="Category.dark_tanker_group" />
+		<item key="112" value="Category.melee_attacker" />
+		<item key="113" value="Category.recom_knight_group" />
+		<item key="114" value="Category.recom_magic_group" />
+		<item key="115" value="Category.recom_warrior_group" />
+		<item key="116" value="Category.recom_rogue_group" />
+		<item key="117" value="Category.recom_kamael_group" />
+		<item key="118" value="Category.recom_orcf_group" />
+		<item key="119" value="Category.recom_orcm_group" />
+		<item key="120" value="Category.deinonychus_pet_group" />
+		<item key="121" value="Category.beastfarm_beast" />
+		<item key="122" value="Category.beastfarm_invader" />
+		<item key="123" value="Category.icequeen_npc" />
+	</map>
+	<map name="socialType">
+		<item key="1" value="SocialAction.UNKNOW" />
+		<item key="2" value="SocialAction.GREETING" />
+		<item key="3" value="SocialAction.VICTORY" />
+		<item key="4" value="SocialAction.ADVANCE" />
+		<item key="5" value="SocialAction.NO" />
+		<item key="6" value="SocialAction.YES" />
+		<item key="7" value="SocialAction.BOW" />
+		<item key="8" value="SocialAction.UNAWARE" />
+		<item key="9" value="SocialAction.WAITING" />
+		<item key="10" value="SocialAction.LAUGH" />
+		<item key="11" value="SocialAction.APPLAUD" />
+		<item key="12" value="SocialAction.DANCE" />
+		<item key="13" value="SocialAction.SORROW" />
+		<item key="14" value="SocialAction.CHARM" />
+		<item key="15" value="SocialAction.SHYNESS" />
+	</map>
+</list>
